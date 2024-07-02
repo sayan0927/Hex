@@ -26,6 +26,8 @@ Developers can easily extend the game's functionality by creating custom AI play
 ```  public class YourAIPlayer extends Player {
     @Override
     public MoveDetails newMove(GameBoard gameBoard) {
+        //    IMPORTANT! ENSURE gameBoard is unchanged after the method finishes
+
         //    Your custom AI logic here
         //    You may use score provided by BoardEvaluator.evaluate() to measure goodness of a move
         //    ( Incase of Minimax Based Players ,  make Computer Player as Maximizer.
@@ -47,6 +49,8 @@ Developers can easily extend the game's functionality by creating custom AI play
 ```  public class YourEvaluator implements BoardEvaluator  {
     
      public int evaluate(GameBoard gameBoard) {
+        //  IMPORTANT! ENSURE gameBoard is unchanged after the method finishes
+
 
         // return an integer representing board score for the provided GameBoard instance
         // if Red player(Human) has won 
