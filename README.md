@@ -26,10 +26,11 @@ Developers can easily extend the game's functionality by creating custom AI play
 ```  public class YourAIPlayer extends Player {
     @Override
     public MoveDetails newMove(GameBoard gameBoard) {
-        // Your custom AI logic here
-        // You may use score provided by BoardEvaluator.evaluate() to measure goodness of a move 
-        //    ( Incase of Minimax Based Players , Minimizer will try to reduce evaluated score , Maximizer will try to increase score)
-        //    ( Current AI Implementation has Computer Player as Maximizer , hence  )
+        //    Your custom AI logic here
+        //    You may use score provided by BoardEvaluator.evaluate() to measure goodness of a move
+        //    ( Incase of Minimax Based Players ,  make Computer Player as Maximizer.
+        //    ( Minimizer will try to reduce evaluated score , Maximizer will try to increase evaluated score)
+        //    ( Current AI Implementation has Computer Player as Maximizer  )
 
         MoveDetails bestMove = .....;
         return bestMove;
