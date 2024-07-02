@@ -16,7 +16,12 @@ Try running the game from the JAR in out folder or use the portable version if y
 
 - **Windows**: Simply click the JAR , if it doesnt work try to run run.bat
 - **Linux**: cd to folder containing the JAR.
-             Enter "java -jar Hex.jar" in terminal  
+             Enter "java -jar Hex.jar" in terminal
+
+# Running portable version
+
+- Extract Contents to empty folder
+- click hex.exe to play
 
 # Creating Custom AI Players
 
