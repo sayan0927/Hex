@@ -28,7 +28,8 @@ Try running the game from the JAR in out folder or use the portable version if y
 - **Override the newMove() Method**: Implement your custom move logic by overriding the newMove() method.
 
 
-```  public class YourAIPlayer extends Player {
+```
+public class YourAIPlayer extends Player {
     @Override
     public MoveDetails newMove(GameBoard gameBoard) {
         //    IMPORTANT! ENSURE gameBoard is unchanged after the method finishes
@@ -51,7 +52,8 @@ Try running the game from the JAR in out folder or use the portable version if y
 - **Implement the evaluate() Method**: Provide your custom board evaluation logic in the evaluate() method.
 
 
-```  public class YourEvaluator implements BoardEvaluator  {
+```
+public class YourEvaluator implements BoardEvaluator  {
     
      public int evaluate(GameBoard gameBoard) {
         //  IMPORTANT! ENSURE gameBoard is unchanged after the method finishes
