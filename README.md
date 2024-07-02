@@ -1,6 +1,7 @@
 Welcome to the HEX Board Game project! 
 This Java-based implementation of the classic HEX game features both human and AI players. 
 Developers can easily extend the game's functionality by creating custom AI players and board evaluators.
+Try running the game from the JAR in out folder or use the portable version if you don't have JRE installed
 
 # Features
 - **AI Players**: Compete against AI players that use the minimax algorithm with alpha-beta pruning. 
