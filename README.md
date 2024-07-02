@@ -9,8 +9,7 @@ Try running the game from the JAR in out folder or use the portable version if y
 - **Custom AI Players**: Create your own AI players by extending the abstract Player class and overriding the newMove() method.
 - **Custom Board Evaluators**: Implement your own board evaluation logic by implementing the BoardEvaluator interface and its evaluate method.
 - **Runnable JAR**: The game can be run from the JAR file in the out folder, provided you have a Java Runtime Environment (JRE) installed
-- **Portable Version**: A portable version that does not require a pre-installed JRE will be released soon.
-
+- **Portable Version**: A portable version that does not require a pre-installed JRE is released in v0.1.0 (https://github.com/sayan0927/Hex/releases/tag/v0.1.0)
 
 # Running JAR ( requires installed JRE ) 
 
