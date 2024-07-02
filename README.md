@@ -19,6 +19,7 @@ Try running the game from the JAR in out folder or use the portable version if y
 
 # Running portable windows version
 
+- Download hex_portable.rar from https://github.com/sayan0927/Hex/releases/tag/v0.1.0
 - Extract Contents to empty folder
 - click hex.exe to play
 
