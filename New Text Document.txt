@@ -1,0 +1,11 @@
+echo "# Hex" >> README.md
+
+
+//have to ignore jre folder
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/sayan0927/Hex.git
+git push -u origin master

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Hex:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Hex_jar</output-path>
+    <root id="archive" name="Hex.jar">
+      <element id="module-output" name="Hex" />
+    </root>
+  </artifact>
+</component>
